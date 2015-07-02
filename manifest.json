@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "ShowThePass",
+  "description": "Have a saved password you cant remember? good use this!",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Show me the password"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
